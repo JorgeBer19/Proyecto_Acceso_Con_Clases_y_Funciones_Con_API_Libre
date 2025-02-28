@@ -22,7 +22,7 @@ class imgdeldia{
             $data["explanation"],
             $data["title"],  
             $data["url"],
-            $data["copyright"]
+            $data["copyright"] ?? "Desconocido"
        );    
    }
 
